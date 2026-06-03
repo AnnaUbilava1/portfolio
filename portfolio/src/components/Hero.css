@@ -111,7 +111,6 @@
 
 .hero-scroll span {
   position: absolute;
-  top: 8px;
   left: 50%;
   width: 4px;
   height: 8px;
@@ -124,11 +123,11 @@
 @keyframes scroll-hint {
   0%,
   100% {
-    opacity: 0.4;
-    transform: translateY(0);
+    top: 8px;
+    opacity: 0.5;
   }
   50% {
+    top: 20px;
     opacity: 1;
-    transform: translateY(10px);
   }
 }
