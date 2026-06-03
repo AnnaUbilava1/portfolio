@@ -3,10 +3,34 @@ import './Projects.css'
 
 function ProjectCard({ project }) {
   const { title, bullets, tags, links, team } = project
+  const hasLive = Boolean(links.live)
+
+  const openLive = () => {
+    window.open(links.live, '_blank', 'noopener,noreferrer')
+  }
+
+  const handleCardClick = () => {
+    if (hasLive) openLive()
+  }
+
+  const handleCardKeyDown = (e) => {
+    if (!hasLive) return
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault()
+      openLive()
+    }
+  }
+
+  const stopCardNavigation = (e) => e.stopPropagation()
 
   return (
     <article
-      className={`project-card ${project.featured ? 'project-card--featured' : ''}`}
+      className={`project-card ${project.featured ? 'project-card--featured' : ''} ${hasLive ? 'project-card--clickable' : ''}`}
+      onClick={handleCardClick}
+      onKeyDown={handleCardKeyDown}
+      role={hasLive ? 'link' : undefined}
+      tabIndex={hasLive ? 0 : undefined}
+      aria-label={hasLive ? `Open live demo: ${title}` : undefined}
     >
       <div className="project-card-accent" aria-hidden="true" />
       <div className="project-card-header">
@@ -25,12 +49,22 @@ function ProjectCard({ project }) {
       </ul>
       <div className="project-links">
         {links.live && (
-          <a href={links.live} target="_blank" rel="noreferrer">
+          <a
+            href={links.live}
+            target="_blank"
+            rel="noreferrer"
+            onClick={stopCardNavigation}
+          >
             Live demo →
           </a>
         )}
         {links.repo && (
-          <a href={links.repo} target="_blank" rel="noreferrer">
+          <a
+            href={links.repo}
+            target="_blank"
+            rel="noreferrer"
+            onClick={stopCardNavigation}
+          >
             Source code
           </a>
         )}

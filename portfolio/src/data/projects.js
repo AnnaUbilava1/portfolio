@@ -1,33 +1,6 @@
 /** Add live demo and repo URLs when you have them. */
 export const projects = [
-  {
-    id: 'glossapp',
-    title: 'GlossApp — Car Wash Management System',
-    team: 'Team of 2',
-    bullets: [
-      'Full-stack car wash management application enabling businesses to manage wash records, pricing matrices, vehicles, companies, and staff performance.',
-      'React Native (Expo) mobile application with bilingual support (Georgian/English) and Material Design UI for cross-platform use (Android, iOS, Web).',
-      'Node.js + Express REST API with PostgreSQL and Prisma ORM to handle wash transactions, pricing calculations, and business data management.',
-      'JWT-based authentication and role-based access control for admin and staff users.',
-      'License plate autocomplete, automated price calculation, payment tracking, dashboard analytics, and staff commission tracking.',
-      'Designed the database schema, API endpoints, and system architecture while collaborating in a two-developer team.',
-    ],
-    tags: [
-      'React Native',
-      'Expo',
-      'Node.js',
-      'Express',
-      'PostgreSQL',
-      'Prisma',
-      'JWT',
-    ],
-    links: {
-      live: '',
-      repo: 'https://github.com/AnnaUbilava1/GlossApp.git',
-    },
-    featured: true,
-  },
-  {
+   {
     id: 'events-board',
     title: 'Events Board',
     team: 'Team of 3',
@@ -58,6 +31,33 @@ export const projects = [
     links: {
       live: 'https://basalt-villas-website.vercel.app',
       repo: 'https://github.com/AnnaUbilava1/basalt-villas-website.git',
+    },
+    featured: true,
+  },
+  {
+    id: 'glossapp',
+    title: 'GlossApp — Car Wash Management System',
+    team: 'Team of 2',
+    bullets: [
+      'Full-stack car wash management application enabling businesses to manage wash records, pricing matrices, vehicles, companies, and staff performance.',
+      'React Native (Expo) mobile application with bilingual support (Georgian/English) and Material Design UI for cross-platform use (Android, iOS, Web).',
+      'Node.js + Express REST API with PostgreSQL and Prisma ORM to handle wash transactions, pricing calculations, and business data management.',
+      'JWT-based authentication and role-based access control for admin and staff users.',
+      'License plate autocomplete, automated price calculation, payment tracking, dashboard analytics, and staff commission tracking.',
+      'Designed the database schema, API endpoints, and system architecture while collaborating in a two-developer team.',
+    ],
+    tags: [
+      'React Native',
+      'Expo',
+      'Node.js',
+      'Express',
+      'PostgreSQL',
+      'Prisma',
+      'JWT',
+    ],
+    links: {
+      live: '',
+      repo: 'https://github.com/AnnaUbilava1/GlossApp.git',
     },
     featured: true,
   },
