@@ -1,6 +1,6 @@
 export const profile = {
   name: "Anna Ubilava",
-  title: "A student, still figuring it out and wanting to try out everything",
+  title: "Curious to try out everything",
   tagline:
     "I build clean, thoughtful web experiences - from interfaces to full-stack apps.",
   email: "anna.ubilava0@gmail.com",
@@ -11,7 +11,7 @@ export const profile = {
     cv: "",
   },
   about: [
-    "Computer Science student with strong foundations in SQL, distributed databases, data modeling, and software engineering.",
+    "Computer Science graduate with strong foundations in SQL, distributed databases, data modeling, and software engineering.",
     "Experience teaching database concepts as a Student Teaching Assistant and building full-stack applications.",
     "Seeking Data Engineering or Data Analytics opportunities to apply analytical and database-focused skills in real-world environments.",
   ],
