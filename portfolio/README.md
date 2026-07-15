@@ -8,7 +8,8 @@ Edit files in `src/data/`:
 
 - `profile.js` — name, title, bio, email, links
 - `skills.js` — skill groups
-- `projects.js` — project cards (live + repo URLs)
+- `projects.js` — project cards (image, live + repo URLs)
+-  screenshots in `public/projects/` 
 
 ## Commands
 
@@ -17,4 +18,4 @@ npm run dev
 npm run build
 ```
 
-Deploy the `dist/` folder (Vercel, Netlify, GitHub Pages) and add that URL to your CV.
+ <!-- Deploy the `dist/` folder (Vercel, Netlify, GitHub Pages) and add that URL to your CV. -->

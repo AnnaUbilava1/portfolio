@@ -2,7 +2,7 @@ import { projects } from '../data/projects'
 import './Projects.css'
 
 function ProjectCard({ project }) {
-  const { title, bullets, tags, links, team } = project
+  const { title, bullets, image, tags, links, team } = project
   const hasLive = Boolean(links.live)
 
   const openLive = () => {
@@ -42,6 +42,11 @@ function ProjectCard({ project }) {
           <li key={item}>{item}</li>
         ))}
       </ul>
+      {image && (
+        <div className="project-image">
+          <img src={image} alt={`${title} screenshot`} loading="lazy" />
+        </div>
+      )}
       <ul className="project-tags">
         {tags.map((tag) => (
           <li key={tag}>{tag}</li>

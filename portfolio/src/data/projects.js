@@ -11,6 +11,7 @@ export const projects = [
       'Test cases for backend and frontend.',
       'Deployed via AWS Amplify with CI/CD.',
     ],
+    image: '/projects/events.png',
     tags: ['React', 'TypeScript', 'MongoDB', 'AWS Amplify', 'REST API'],
     links: {
       live: 'https://main.d1r03isbgzcqje.amplifyapp.com',
@@ -27,6 +28,7 @@ export const projects = [
       'Built with React and Vite.',
       'Deployed on Vercel for cross-device compatibility.',
     ],
+    image: '/projects/villa.png',
     tags: ['JavaScript', 'React', 'Vite', 'Vercel'],
     links: {
       live: 'https://basalt-villas-website.vercel.app',
@@ -46,6 +48,7 @@ export const projects = [
       'License plate autocomplete, automated price calculation, payment tracking, dashboard analytics, and staff commission tracking.',
       'Designed the database schema, API endpoints, and system architecture while collaborating in a two-developer team.',
     ],
+    image: '',
     tags: [
       'React Native',
       'Expo',
@@ -69,6 +72,7 @@ export const projects = [
       'E-commerce style platform with product listing, filtering, sorting, and cart functionality.',
       'My first web project, focusing on responsive UI and basic authorization.',
     ],
+    image: '',
     tags: ['HTML', 'CSS', 'JavaScript', 'React'],
     links: {
       live: 'https://sales-platform-web.vercel.app',
