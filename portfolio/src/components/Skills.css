@@ -13,7 +13,7 @@
 }
 
 .skills-card:hover {
-  border-color: rgba(195, 142, 180, 0.4);
+  border-color: rgba(242, 174, 188, 0.45);
 }
 
 .skills-card h3 {
@@ -21,7 +21,7 @@
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--mauve);
+  color: var(--cherry);
   margin-bottom: 1rem;
 }
 
@@ -38,7 +38,7 @@
   display: inline-block;
   padding: 0.35rem 0.75rem;
   font-size: 0.85rem;
-  color: var(--lavender);
+  color: var(--text);
   background: rgba(134, 168, 207, 0.12);
   border: 1px solid rgba(134, 168, 207, 0.2);
   border-radius: 999px;

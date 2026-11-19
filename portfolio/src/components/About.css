@@ -43,7 +43,7 @@
   padding: 1rem 1.25rem;
   background: rgba(38, 66, 90, 0.35);
   border-radius: var(--radius);
-  border-left: 3px solid var(--mauve);
+  border-left: 3px solid var(--cherry);
 }
 
 .about-meta-label {
@@ -55,7 +55,7 @@
 }
 
 .about-meta-item a {
-  color: var(--lavender);
+  color: var(--text);
 }
 
 @media (max-width: 768px) {

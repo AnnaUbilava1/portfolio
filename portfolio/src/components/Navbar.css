@@ -28,12 +28,12 @@
 .navbar-logo {
   font-family: var(--font-serif);
   font-size: 1.5rem;
-  color: var(--lavender);
+  color: var(--misty);
   text-decoration: none;
 }
 
 .navbar-logo-dot {
-  color: var(--mauve);
+  color: var(--cherry);
 }
 
 .navbar-nav {
@@ -58,7 +58,7 @@
 }
 
 .navbar-nav a:hover {
-  color: var(--lavender);
+  color: white;
 }
 
 .navbar-cta {
@@ -80,7 +80,7 @@
   display: block;
   width: 22px;
   height: 2px;
-  background: var(--lavender);
+  background: var(--cherry);
   border-radius: 2px;
 }
 

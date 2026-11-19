@@ -1,12 +1,7 @@
 .contact-inner {
   text-align: center;
   padding: 3rem 2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(38, 66, 90, 0.5) 0%,
-    rgba(195, 142, 180, 0.12) 50%,
-    rgba(13, 27, 62, 0.6) 100%
-  );
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
 }
@@ -39,7 +34,7 @@
 }
 
 .contact-social a:hover {
-  color: var(--mauve);
+  color: var(--cherry);
 }
 
 @media (max-width: 480px) {
